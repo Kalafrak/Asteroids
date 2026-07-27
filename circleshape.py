@@ -1,5 +1,5 @@
 import pygame
-from constants import *
+from workspace.asteroids.constants import *
 
 # Base class for game objects
 class CircleShape(pygame.sprite.Sprite):

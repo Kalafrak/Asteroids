@@ -1,9 +1,10 @@
+import sys
 import pygame
-from constants import *
-from player import Player
-from asteroid import Asteroid
-from asteroidfield import AsteroidField
-from shot import Shot
+from workspace.asteroids.constants import *
+from workspace.asteroids.player import Player
+from workspace.asteroids.asteroid import Asteroid
+from workspace.asteroids.asteroidfield import AsteroidField
+from workspace.asteroids.shot import Shot
 
 updatable = pygame.sprite.Group()
 drawable = pygame.sprite.Group()
